@@ -528,16 +528,16 @@ form {
     color: #172b4d;
     animation: coloreffect 10s;
   }
-  
-@keyframes coloreffect {
-  from {
-    color:aqua
-  }
 
-  to {
-    color: red;
+  @keyframes coloreffect {
+    from {
+      color: aqua;
+    }
+
+    to {
+      color: red;
+    }
   }
-}
 
   .heading span {
     display: contents;
