@@ -11,12 +11,14 @@ body {
   width: 100%;
   height: auto;
   background: #efefef;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container {
   background: #fff;
-  height: 700px;
+  height: 750px;
   border-bottom-left-radius: 100px;
+  overflow: hidden;
 }
 
 header {
@@ -70,8 +72,7 @@ nav {
 }
 
 .heading {
-  margin-top: 18rem;
-  font-family: 'Poppins', sans-serif;
+  margin-top: 10rem;
   font-size: 40px;
   font-weight: 700;
   margin-left: 22px;
@@ -84,7 +85,6 @@ nav {
 
 .bio {
   margin-left: 22px;
-  font-family: 'Poppins', sans-serif;
   width: 327px;
   font-weight: 400;
   color: #172b4d;
@@ -106,6 +106,37 @@ nav {
   display: inline-block;
 }
 
+.about_one ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.about_one p {
+  background: transparent;
+  padding: 4px;
+  margin: 10px 0 0 34px;
+  color: #6070ff;
+  border: 1px solid #6070ff;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  width: 9rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about_one h3 {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  color: rgba(57, 109, 242, 1);
+  font-size: 14px;
+}
+
 .links i {
   margin: 10px 5px 0 0;
   color: #505f79;
@@ -125,7 +156,7 @@ nav {
   background: #fff;
   border-radius: 16px;
   border: 1px solid #def1e6;
-  padding: 16px;
+  padding: 8px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -349,13 +380,14 @@ nav {
   flex-direction: row;
   border-bottom: 1px solid #dfe1e6;
   border-radius: 0;
-  width: 100%;
+  width: 109%;
   height: auto;
-  padding: 16px;
+  padding: 4px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 10px 0;
+  margin-right: 14rem;
 }
 
 .work_skill h3 {
@@ -377,20 +409,21 @@ nav {
   display: flex;
   padding: 0 30px;
   margin-top: -100px;
-  justify-items: center;
+  justify-content: center;
   border-top-left-radius: 100px;
 }
 
 form {
   margin-top: 30px;
   text-align: center;
+  margin-bottom: 90px;
 }
 
 .bottom_image {
   background-image: url('Images/bottom_im.png');
   background-position: right;
   background-repeat: no-repeat;
-  height: 700px;
+  height: auto;
   position: absolute;
 }
 
@@ -409,7 +442,7 @@ form {
 
 .last_par {
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #fff;
   margin: 0 10px 0 0;
@@ -481,15 +514,18 @@ form {
 
   .back_image {
     background-image: url('Images/bigger_img.png');
-    background-position: fixed;
+    background-image: cover;
     max-width: 100%;
     margin-top: 56px;
     margin-left: 30px;
   }
 
   .heading {
-    margin-left: 130px;
     font-size: 48px;
+    margin-top: 7rem;
+    font-weight: 700;
+    margin-left: 130px;
+    color: #172b4d;
   }
 
   .heading span {
@@ -498,8 +534,8 @@ form {
 
   .bio {
     margin-left: 130px;
-    width: 70%;
-    font-size: 20px;
+    width: 55%;
+    font-size: 16px;
   }
 
   .links {
@@ -557,11 +593,42 @@ form {
   }
 
   .about_one {
-    margin: 80px 30px 80px 80px;
+    margin: 40px 30px 80px 80px;
+  }
+
+  .about_one h3 {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    color: rgba(57, 109, 242, 1);
+    font-size: 14px;
+  }
+
+  .about_one ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+
+
+
+  .about_one p:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+
+  .about_one p:active {
+    background-color: #2230d2;
   }
 
   .about_intro {
-    width: 399px;
+    width: 20rem;
+    font-weight: 400;
+    font-size: 11px;
+    margin: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #344563;
   }
 
   .languages_skill {
@@ -574,10 +641,10 @@ form {
   }
 
   .skill_bar {
-    width: 122px;
+    width: 84px;
     height: 100px;
-    margin: 10px;
-    padding: 10px;
+    margin: 2px;
+    padding: 3px;
     flex-direction: column;
   }
 
@@ -598,30 +665,12 @@ form {
     width: 20px;
   }
 
-  .resume1 {
-    background: transparent;
-    padding: 16px;
-    margin-top: 40px;
-    color: #6070ff;
-    border: 1px solid #6070ff;
-    border-radius: 16px;
-    font-weight: 500;
-    font-size: 25px;
-    cursor: pointer;
-    outline: none;
-    width: 10rem;
+
+
+  #about h3 {
+    border-color: 1px solid red;
   }
 
-  .resume1:hover {
-    background-color: #6b72b4;
-    color: white;
-  }
-
-  .resume1:active {
-    background-color: #2230d2;
-    color: white;
-    transform: translateY(4px);
-  }
 
   .bottom_image {
     background-image: url('Images/bottom_big.png');
@@ -645,21 +694,21 @@ form {
   .last_par {
     font-weight: 400;
     font-size: 20px;
-    width: 30%;
-    margin: 0 35%;
+    width: 50%;
+    margin: 0 25%;
   }
 
   #input {
-    width: 50%;
+    width: 48%;
     border-radius: 0;
   }
 
   #textpanel {
-    width: 50%;
+    width: 48%;
     border-radius: 0;
   }
 
   .submit {
-    border-radius: 0;
+    border-radius: 10px;
   }
 }
