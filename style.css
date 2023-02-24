@@ -611,8 +611,6 @@ form {
     margin-bottom: 1rem;
   }
 
-
-
   .about_one p:hover {
     background-color: #6070ff;
     color: #fff;
@@ -665,12 +663,9 @@ form {
     width: 20px;
   }
 
-
-
   #about h3 {
     border-color: 1px solid red;
   }
-
 
   .bottom_image {
     background-image: url('Images/bottom_big.png');
