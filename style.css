@@ -526,6 +526,17 @@ form {
     font-weight: 700;
     margin-left: 130px;
     color: #172b4d;
+    animation: coloreffect 10s;
+  }
+
+  @keyframes coloreffect {
+    from {
+      color: blue;
+    }
+
+    to {
+      color: red;
+    }
   }
 
   .heading span {
